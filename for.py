@@ -52,3 +52,26 @@ lista.append(68)
 print(lista)
 '''
 
+#ex1
+'''lista = ['joao','lucas','patricia','danilo','gabriel']
+for i in range(len(lista)):
+    if lista[i] == 'danilo':
+        print(f'Danilo foi encontrado na posição {i}')
+        break
+    else:
+        print('Danilo não foi encontrado')'''
+
+#ex2
+'''materia = ['design','front','story','python','webDev']
+prof = ['joao','lucas','patricia','danilo','caio']
+for i in range(len(prof)):
+    print(f'O professor {prof[i]} da aula de {materia[i]}')'''
+
+#3
+
+num = []
+for i in range(10):
+    numero = int(input('Digite os números:'))
+    num.append(numero)
+print('Lista dos numeros', num)
+
